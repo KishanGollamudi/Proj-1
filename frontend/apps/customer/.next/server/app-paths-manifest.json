@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/bookings/[id]/page": "app/bookings/[id]/page.js",
+  "/checkout/[bookingId]/page": "app/checkout/[bookingId]/page.js",
+  "/checkout/success/page": "app/checkout/success/page.js",
+  "/creator/[id]/page": "app/creator/[id]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/search/page": "app/search/page.js",
+  "/settings/page": "app/settings/page.js"
+}
