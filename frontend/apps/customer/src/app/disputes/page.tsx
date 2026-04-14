@@ -3,7 +3,7 @@
 import { FormEvent, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { apiPost } from '@/lib/api';
-import { useToast } from '@snapmatch/shared';
+import { useToast } from '@/lib/shared';
 
 export default function CustomerDisputesPage() {
   const { data: session } = useSession();

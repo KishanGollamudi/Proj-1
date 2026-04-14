@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { FormEvent, useMemo, useState } from 'react';
-import { toCurrency } from '@snapmatch/shared';
+import { toCurrency } from '@/lib/format';
 
 interface BookingWidgetProps {
   creatorId: string;

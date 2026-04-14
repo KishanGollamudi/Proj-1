@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { ReactNode } from 'react';
-import { ErrorBoundary, Footer, Header } from '@snapmatch/shared';
+import { ErrorBoundary, Footer, Header } from '@/lib/shared';
 import { Providers } from '@/providers';
 import './globals.css';
 

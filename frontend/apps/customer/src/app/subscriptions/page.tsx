@@ -4,7 +4,7 @@ import { FormEvent, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useSession } from 'next-auth/react';
 import { apiGet, apiPost, apiPut } from '@/lib/api';
-import { useToast } from '@snapmatch/shared';
+import { useToast } from '@/lib/shared';
 
 interface Plan {
   code: 'BASIC' | 'PRO' | 'UNLIMITED';

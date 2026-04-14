@@ -1,0 +1,14 @@
+{
+  "name": "snapmatch",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend/apps/customer",
+    "packages/shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @snapmatch/shared && npm run build --workspace @snapmatch/backend && npm run build --workspace @snapmatch/customer",
+    "dev:backend": "npm run dev --workspace @snapmatch/backend",
+    "dev:customer": "npm run dev --workspace @snapmatch/customer"
+  }
+}

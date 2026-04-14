@@ -7,7 +7,7 @@ import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'next/navigation';
 import { apiGet, apiPost, apiPut } from '@/lib/api';
 import { createRealtimeSocket } from '@/lib/realtime';
-import { EditorSelector, useToast } from '@snapmatch/shared';
+import { EditorSelector, useToast } from '@/lib/shared';
 
 interface BookingDetails {
   id: string;

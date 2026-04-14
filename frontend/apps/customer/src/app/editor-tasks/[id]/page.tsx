@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import { useSession } from 'next-auth/react';
 import { apiGet, apiPost } from '@/lib/api';
 import { createRealtimeSocket } from '@/lib/realtime';
-import { useToast } from '@snapmatch/shared';
+import { useToast } from '@/lib/shared';
 
 interface EditorTask {
   id: string;

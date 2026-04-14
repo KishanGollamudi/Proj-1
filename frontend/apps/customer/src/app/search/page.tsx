@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { useSearchParams } from 'next/navigation';
 import { CreatorCard } from '@/components/creator-card';
 import { apiGet } from '@/lib/api';
-import { LoadingSpinner } from '@snapmatch/shared';
+import { LoadingSpinner } from '@/lib/shared';
 
 interface CreatorItem {
   id: string;

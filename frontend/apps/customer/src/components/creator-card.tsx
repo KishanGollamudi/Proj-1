@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { toCurrency } from '@snapmatch/shared';
+import { toCurrency } from '@/lib/format';
 
 interface CreatorCardProps {
   creator: {

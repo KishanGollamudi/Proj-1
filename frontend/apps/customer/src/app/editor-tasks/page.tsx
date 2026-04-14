@@ -2,7 +2,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { useSession } from 'next-auth/react';
-import { TaskCard } from '@snapmatch/shared';
+import { TaskCard } from '@/lib/shared';
 import { apiGet } from '@/lib/api';
 
 interface EditorTask {

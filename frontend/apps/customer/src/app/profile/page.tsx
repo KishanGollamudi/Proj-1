@@ -3,7 +3,7 @@
 import { FormEvent, useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { apiGet, apiPut } from '@/lib/api';
-import { useToast } from '@snapmatch/shared';
+import { useToast } from '@/lib/shared';
 
 interface Profile {
   fullName: string;
